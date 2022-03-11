@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width.device=width, initial-scale=1.0">
+    <title>Mi primer HTML</title>
+    <style>
+
+        header {
+            background-color: #666;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+
+       
+
+        footer {
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header><img src="./Logo.jpg" alt="logo" width="320" height="200"></header>
+   
+
+    <h3>Prueba nuestros diferentes sabores</h3>
+    <ul>
+        <li>Moka</li>
+        <li>Tres leches</li>
+        <li>Zanahoria</li>
+        <li>Queso de bola</li>
+        <li>Durazno</li>
+        <li>Fresa</li>
+        <li>Chocolate</li>
+        <li>Nuez</li>
+        <li>Vainilla</li>
+    </ul>
+    <h3>Adornos para el pastel</h3>
+    <table>
+        <tr><!--LLENADO DE RENGLON-->
+            <th>Decoracion</th><!--DATA HEAD-->
+            <th>Costo</th>
+        </tr>
+        <tr>
+            <td>Bastones de chocolate</td><!--DATA CELL-->
+            <td>$120.00</td>
+        </tr>
+        <tr>
+            <td>Jamoncillo</td>
+            <td>$150.00</td>
+        </tr>
+        <tr>
+            <td>Dedicatoria</td>
+            <td>$30.00</td>
+        </tr>
+        <tr>
+            <td>Chispas arcoiris</td>
+            <td>$80.00</td>
+        </tr>
+        <tr>
+            <td>Foto comestible</td>
+            <td>$249.00</td>
+        </tr>
+        <tr>
+            <td>Velas numericas</td>
+            <td>$15.00 c/u</td>
+        </tr>
+    </table><br>
+
+    
+
+    <h2>Agregados</h2>
+
+    <!--CHECKBOX SOBRE SABORES Y DECORACIONES-->
+
+    <p>Seleccione los sabores y adornos que desea combinar:</p><br>
+
+    <h3>Sabores</h3>
+    <Input type="checkbox" id="Moka"></Input>
+    <label for="Moka">Moka</label>
+
+    <Input type="checkbox" id=TresLeches"></Input>
+    <label for="TresLeches">Tres Leches</label>
+
+    <Input type="checkbox" id="Zanahoria"></Input>
+    <label for="Zanahoria">Zanahoria</label><br><br>
+
+    <Input type="checkbox" id="QuesoDBola"></Input>
+    <label for="QuesoDBola">Queso de Bola</label>
+
+    <Input type="checkbox" id="Durazno"></Input>
+    <label for="Durazno">Durazno</label>
+    
+    <Input type="checkbox" id="Fresa"></Input>
+    <label for="Fresa">Fresa</label><br><br>
+
+    <Input type="checkbox" id="Chocolate"></Input>
+    <label for="Chocolate">Chocolate</label>
+
+    <Input type="checkbox" id="Nuez"></Input>
+    <label for="Nuez">Nuez</label>
+
+    <Input type="checkbox" id="Vainilla"></Input>
+    <label for="Vainilla">Vainilla</label>
+
+    <!---->
+
+    <h3>Decoraciones</h3>
+    <Input type="checkbox" id="BCT"></Input>
+    <label for="BCT">Bastones de Chocolate</label>
+
+    <Input type="checkbox" id=JML"></Input>
+    <label for="JML">Jamoncillo</label>
+
+    <Input type="checkbox" id="DCR"></Input>
+    <label for="DCR">Dedicatoria</label><br><br>
+
+    <Input type="checkbox" id="CPA"></Input>
+    <label for="CPA">Chispas Arcoiris</label>
+
+    <Input type="checkbox" id="FCB"></Input>
+    <label for="FCB">Durazno</label>
+    
+    <Input type="number" id="VNC"></Input>
+    <label for="VNC">Velas Numericas</label><br><br>
+
+
+    <h3>Informacion para hacer el pedido</h3><br><br>
+    <label for="NM">Nombre</label>
+    <input type="text" id="NM">
+
+    <label for="EM">Email</label>
+    <input type="mail" id="EM">
+
+    <br><br>
+    <a href="./pedido.html" target="blank">
+        <input type="button" value="Hacer pedido">
+    </a>
+
+    
+    
+   
+    
+
+
+    
+    <footer>
+        All rights reserved
+    </footer>
+
+
+
+</body>
+
+
+
+
+
+
+
+</html>
