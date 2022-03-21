@@ -1,0 +1,49 @@
+.left{
+    text-align: right;
+}
+
+div{
+    height: 150px;
+}
+
+.cr{
+    z-index: 2000;
+    background-color: rgba(255, 255, 255, .1);   
+    backdrop-filter: blur(5px);
+    border-bottom: 1px solid #fff;
+    width:  100%;
+    height: 100px;
+    position: fixed;
+}
+
+.headerLinks{
+    color: black;
+    font-size: 1.2em;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+.headerStruct{
+        float: right;
+        margin-right: 150px;
+}
+
+.logo{
+    color: #005cc5;
+    position: absolute;
+    padding: 30px 200px;
+    font-size: 2em;
+}
+.flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+    flex-direction: row;
+  }
+
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
